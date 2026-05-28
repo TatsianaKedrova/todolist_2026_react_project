@@ -18,6 +18,7 @@
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
+    "preview": "vite preview",
     "predeploy": "pnpm build",
     "deploy": "gh-pages -d dist"
   },
