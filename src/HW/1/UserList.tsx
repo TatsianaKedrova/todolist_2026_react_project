@@ -1,14 +1,4 @@
-type AddressType = {
-  street: string;
-  city: string;
-};
-
-type UserType = {
-  id: number;
-  name: string;
-  age: number;
-  address: AddressType;
-};
+import { UserType } from "../../common.types.ts/UserTypes.types";
 
 type UserListPropsType = {
   users: UserType[];
